@@ -1,6 +1,6 @@
 # Reflexons 2019's Website
 <p align="center">
-  <a href="https://www.reflexons.cucse.org/">
+  <a href="https://reflexons.cucse.org/">
     <img src="https://reflexons.cucse.org/static/504396c60f29f54ac5a3db4e899899a1/9146f/logo.png" alt="reflexons 2019 logo"/>
   </a>
 </p>
