@@ -18,7 +18,7 @@ let userInput, terminalOutput;
 const app = () => {
   userInput = document.getElementById("userInput");
   terminalOutput = document.getElementById("terminalOutput");
-  document.getElementById("dummyKeyboard").focus();
+  document.getElementById("dummyKeyboard").getAnimations(0).focus();
   console.log("Application loaded");
 };
 
