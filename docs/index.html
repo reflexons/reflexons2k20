@@ -19,6 +19,7 @@
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css" />
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/venobox/venobox.css" rel="stylesheet">
@@ -98,7 +99,7 @@
     <!--==========================
       Speakers Section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
+    <section id="speakers" class="wow fadeInUp h-100">
       <div class="container">
         <div class="section-header">
           <h2>Events</h2>
@@ -106,7 +107,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 h-100">
             <div class="speaker">
               <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
@@ -153,7 +154,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 h-100">
             <div class="speaker">
               <img src="img/speakers/5.jpg" alt="Robofest" class="img-fluid">
               <div class="details">
@@ -221,7 +222,7 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>15th March 2020</time></div>
               <div class="col-md-10">
-                <h4>DEBATE AND QUIZ</h4>
+                <h4>QUIZ</h4>
               </div>
             </div>
             <div class="row schedule-item">
@@ -380,26 +381,34 @@
           <h2>Sponsors</h2>
         </div>
 
-        <div class="row no-gutters supporters-wrap clearfix">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/1.jpg" class="img-fluid" alt="TRIBUTE">
-            </div>
+        <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+          <div>
+              <div class="uk-card uk-card-default uk-card-body h-100">
+                  <h3 class="uk-card-title">MUSIC PARTNERS</h3>
+                  <img src="img/supporters/1.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                  
+                  
+              </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/Starmark.jpg" class="img-fluid" alt="Star Mark">
-            </div>
+          <div>
+              <div class="uk-card uk-card-default uk-card-body h-100" uk-scrollspy-class="uk-animation-slide-top">
+                <h3 class="uk-card-title">PROMOTIONAL PARTNERS</h3>
+                <img src="img/supporters/Starmark.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+              </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/2.png" class="img-fluid" alt="">
-            </div>
+          <div>
+              <div class="uk-card uk-card-default uk-card-body h-100">
+                  <h3 class="uk-card-title"></h3>
+                  <img src="img/supporters/2.png" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                  <hr/>
+                  <p>Want to know more about Unacademy?</p>
+                  <a class="uk-button uk-button-default" href="https://unacademy.com/">JOIN US!</a>
+                  <a class="uk-button uk-button-default" href="https://www.youtube.com/channel/UCrm79-idsNHCjc4sQReochw">Youtube Channel</a>
+                  
+              </div>
           </div>
-          
-
-        </div>
+      </div>
+        
 
       </div>
 
@@ -452,7 +461,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
+            <div class="card mb-5 mb-lg-0 h-100">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
                 <h6 class="card-price text-center">ROBOTICS</h6>
@@ -473,7 +482,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
+            <div class="card mb-5 mb-lg-0 h-100">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
                 <h6 class="card-price text-center">CODE COMBAT</h6>
@@ -493,7 +502,7 @@
           </div>
           <!-- Pro Tier -->
           <div class="col-lg-4">
-            <div class="card">
+            <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center">TEAM / SOLO</h5>
                 <h6 class="card-price text-center">GAMING</h6>
@@ -513,6 +522,83 @@
             </div>
           </div>
         </div>
+
+        
+
+      </div>
+
+
+
+      <div class="container">
+
+        <div class="section-header">
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0 h-100">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
+                <h6 class="card-price text-center">QUIZ</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: ₹100/TEAM </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: 15th March 2020</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME: 12:00 PM IST</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Maximum heads per team: 3</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>All the members needs to be physically present at the venue</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Each student must carry their college ID with themselves</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <a href="quiz.html.html" class="btn btn-info" role="button" disabled>Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0 h-100">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">TEAM EVENT</h5>
+                <h6 class="card-price text-center">SEMINAR AND WORKSHOP</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: ₹500(60% off for CU Tech Campus students) </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: 11th & 12th March 2020</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME DURATION: 10:00 AM TO 05:00 PM IST</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>All the members needs to be physically present at the venue</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <a href="code_combat.html" class="btn btn-info" role="button" disabled>Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">BAND EVENT</h5>
+                <h6 class="card-price text-center">BAND WAGON</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>ENTRY FEES: TBA </li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>DATE: TBA</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>TIME: TBA</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access" disabled>Opening soon</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
 
       </div>
    
@@ -547,6 +633,12 @@
               <i class="ion-ios-telephone-outline"></i>
               <h3>Rahul Dutta</h3>
               <p><a href="tel:+919836012243">+91 98360 12243</a></p>
+              <br/>
+              <h3>Nawaz Sk</h3>
+              <p><a href="tel:+919007460264">+91 90074 60264</a></p>
+              <br/>
+              <h3>Anupam Chowdhury</h3>
+              <p><a href="tel:+917548077404">+91 75480 77404</a></p>
             </div>
           </div>
 
@@ -641,6 +733,8 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
